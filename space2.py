@@ -14,7 +14,7 @@ screen = pygame.display.set_mode((screen_width,
 
 # caption and icon
 pygame.display.set_caption("Welcome to Space\
-Invaders Game by:- styles")
+Invaders 2 Game by:- zayn")
 
 # Score
 score_val = 0
@@ -66,7 +66,7 @@ for num in range(no_of_invaders):
 # Bullet
 # rest - bullet is not moving
 # fire - bullet is moving
-bulletImage = pygame.image.load('data/bullet.png')
+bulletImage = pygame.image.load('data/bulldog.png')
 bullet_X = 0
 bullet_Y = 500
 bullet_Xchange = 0
